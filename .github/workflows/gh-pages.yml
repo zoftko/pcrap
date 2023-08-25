@@ -19,9 +19,14 @@ jobs:
         with:
           key: ${{ runner.os }}-balba
           path: ~/.cache/pip
-      - uses: actions/configure-pages@v3
+      - name: Install KiCad
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
+          sudo apt update
+          sudo apt install --no-install-recommends -y kicad
       - name: Install balba
         run: pip install --upgrade balba
+      - uses: actions/configure-pages@v3
       - name: Build website
         run: balba --output ./_site
       - name: Upload artifact
