@@ -1,9 +1,6 @@
 ---
 title: Heart shaped RGB LED Array
-brief: This board includes a heart shaped RGB LED array and the components to control said array
-through a simple user interface.
-status: Built
-version: 1.0.0
+brief: This board includes a heart shaped RGB LED array and the components to control said array through a simple user interface.
 ---
 
 # cocoro

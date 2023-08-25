@@ -1,0 +1,5 @@
+lang: en
+title: pcrap
+description: Collection of documented PCB designs in KiCad
+keywords: electronics,design,board,pcb,cad,kicad
+base_url: https://zoftko.gitlab.io/pcrap/
