@@ -3825,6 +3825,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 93.98 128.27 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 240d454f-4c2a-47a1-8984-e95de7bf0949)
+    (property "Reference" "#PWR020" (at 93.98 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 93.98 123.19 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 93.98 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 93.98 128.27 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fc84f50c-6443-4d4f-b194-48ac8dfabf68))
+    (instances
+      (project "pcroast"
+        (path "/3b27695c-a5de-4be8-932a-237690def1bd"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 26.67 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25f2cc7d-95dc-4de8-876b-323225e73289)
@@ -3948,31 +3973,6 @@
       (project "pcroast"
         (path "/3b27695c-a5de-4be8-932a-237690def1bd"
           (reference "Q2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 93.98 128.27 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3e1654e7-6eb5-495b-8dc2-c66d123caa3c)
-    (property "Reference" "#PWR012" (at 93.98 132.08 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 93.98 123.19 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 93.98 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 93.98 128.27 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid add6972b-4207-4ab1-9e5b-1caae4386909))
-    (instances
-      (project "pcroast"
-        (path "/3b27695c-a5de-4be8-932a-237690def1bd"
-          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4337,6 +4337,31 @@
       (project "pcroast"
         (path "/3b27695c-a5de-4be8-932a-237690def1bd"
           (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 121.92 152.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 65fabb7d-5299-438f-b0d2-15c9951832b5)
+    (property "Reference" "#PWR012" (at 121.92 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 121.92 147.32 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 121.92 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 121.92 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff51c6de-6098-4815-844a-dd38c9b1506e))
+    (instances
+      (project "pcroast"
+        (path "/3b27695c-a5de-4be8-932a-237690def1bd"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5207,31 +5232,6 @@
       (project "pcroast"
         (path "/3b27695c-a5de-4be8-932a-237690def1bd"
           (reference "J7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 121.92 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d6737829-b24d-48b7-9950-9680aa7b0392)
-    (property "Reference" "#PWR020" (at 121.92 156.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 121.92 147.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.92 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 121.92 152.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 656e39d0-de89-4581-aa10-645ec26c9d9d))
-    (instances
-      (project "pcroast"
-        (path "/3b27695c-a5de-4be8-932a-237690def1bd"
-          (reference "#PWR020") (unit 1)
         )
       )
     )
