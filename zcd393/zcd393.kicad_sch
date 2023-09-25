@@ -1725,7 +1725,7 @@
     (property "Value" "1N5819WS" (at 135.89 106.3625 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Diode_SMD:D_SOD-323" (at 128.905 105.41 0)
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 128.905 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf" (at 133.35 105.41 0)
